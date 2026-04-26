@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//Users/richardli/.claude/**)",
+      "Read(//Users/richardli/.claude/projects/**)",
+      "Bash(python3 -m json.tool)",
+      "Bash(python3 -c \"import sys,json; [print\\(json.dumps\\(json.loads\\(l\\), indent=2\\)\\) for l in sys.stdin]\")",
+      "Bash(python3 -c \"import rumps\")",
+      "Bash(pip3 install *)"
+    ]
+  }
+}
